@@ -84,6 +84,17 @@ class SinglyLinkedList:
         # this alson adds the function at the end... I just made it to keep the function name shorter
         self.addLast(elem_val)
 
+    def __contains__(self, item):
+    	# we defined this so that the `in` keyword can give a proper true or false
+    	# supposing the linked list has the elements, say sl = [1,"hello",3]
+    	# if we run `1 in sl` we get `True` and `"hello" not in sl` gives `False`
+    	# so does `2 in sl`
+        for node in self:
+            if item == node.getElement():
+                return True
+        return False
+
+
     def pop(self):
         # I was unable to think of a better way than this to pop the last elelement for a singly linked list, so... I just went with it...
         # although it loops through the list everytime to pop the last element, it rather made the logic for the task pretty easy
