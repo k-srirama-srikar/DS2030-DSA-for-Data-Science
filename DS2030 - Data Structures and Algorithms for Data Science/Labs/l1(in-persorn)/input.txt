@@ -1,1 +1,6 @@
-
+image1.jpeg translate 30 40
+image1.jpeg translate 50 50
+image2.jpeg flip 1
+image3.jpeg flip 0
+image4.jpeg scale 0.5
+image5.jpeg scale 2
