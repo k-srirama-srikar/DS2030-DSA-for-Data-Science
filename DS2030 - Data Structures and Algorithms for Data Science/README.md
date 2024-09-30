@@ -1,3 +1,0 @@
-# DS2030 - Data Structures and Algorithms for Data Science
-
-To find out course details, click [here](https://seekayan.github.io/f24ds2030.html)...
