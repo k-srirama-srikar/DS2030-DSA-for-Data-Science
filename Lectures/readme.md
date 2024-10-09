@@ -9,3 +9,10 @@ For the `.ipynb` files
 | 3 & 4 | Stacks, Queues and Trees |
 | 5 | Heaps |
 | 6 & 7 | Binary Search Trees and Multi Way Search Trees |
+
+For the `.pdf` files
+
+
+
+>[!NOTE]
+> The `.ipynb` files are the notes I have taken during the classes and the `.pdf` files are the lecture slides that have been shared.
